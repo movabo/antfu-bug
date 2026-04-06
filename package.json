@@ -1,0 +1,17 @@
+{
+  "name": "antfu-bug",
+  "type": "module",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "generate": "openapi-ts",
+    "eslint": "eslint .",
+    "openapi-ts": "openapi-ts"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "latest",
+    "@hey-api/openapi-ts": "latest",
+    "eslint": "latest",
+    "eslint-plugin-format": "^2.0.1",
+    "typescript": "latest"
+  }
+}
